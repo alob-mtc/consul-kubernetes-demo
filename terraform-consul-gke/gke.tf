@@ -15,5 +15,7 @@ resource "google_container_cluster" "kubernetes_cluster" {
 
     machine_type = var.machine_type
     preemptible  = var.preemptible
+
+    labels = var.labels
   }
 }

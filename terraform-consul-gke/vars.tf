@@ -84,3 +84,7 @@ variable "pokedex_replica_count" {
   description = "replica count for pokedex app deployment"
   default     = 3
 }
+
+variable "labels" {
+  description = "kubernetes labels to be applied to each node"
+}
