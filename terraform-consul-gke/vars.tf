@@ -87,4 +87,5 @@ variable "pokedex_replica_count" {
 
 variable "labels" {
   description = "kubernetes labels to be applied to each node"
+  default     = {}
 }
